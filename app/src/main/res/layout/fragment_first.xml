@@ -4,20 +4,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     tools:context=".FirstFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/result_left"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:text="3" />
 
 
     <TextView
         android:id="@+id/result_right"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:text="5" />
 
     <Button
