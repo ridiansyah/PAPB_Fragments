@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
             fragmentTransaction.replace(R.id.fragment_right, secondFragment);
             Toast.makeText(getBaseContext(),"landscape", Toast.LENGTH_SHORT).show();
         } else {
-            //fragmentTransaction.replace(R.id.fragment_right, secondFragment);
             fragmentTransaction.add(R.id.container, firstFragment);
             Toast.makeText(getBaseContext(),"portrait", Toast.LENGTH_SHORT).show();
         }
